@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/jb.jpg"/>
+	<link rel="icon" sizes="192x192" href="img/jb.jpg">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88940541-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-88940541-1');
+	</script>
+	<script src="js/smooth-scroll.js"></script>
+  <title>Jeff Bland</title>
+</head>
+
+<body>
+	<div id="home">
+		<div id="title" style="color: #F8F8F8;">JEFF BLAND<br>
+			<h2 style="color: #DDDDDD;">
+			WEB DEVELOPER
+			</h2>
+		</div>
+	</div>
+	<div id="topbar">
+		<ul>
+			<li id="logo"><a data-easing="easeInOutQuart" href="#home1">JB</a></li>
+			<li><a data-easing="easeInOutQuart" href="#about">ABOUT</a></li>
+			<li><a data-easing="easeInOutQuart" href="#dev">DEV</a></li>
+			<li><a data-easing="easeInOutQuart" href="#hobbies">HOBBIES</a></li>
+			<li><a data-easing="easeInOutQuart" href="#contact">CONTACT</a></li>
+		</ul>
+	</div>
+	<div id="about">
+		<div class="container">
+			<div class="boxhead"><h1>ABOUT</h1></div>
+			<div class="content">
+				<p>
+					My name's Jeff Bland. I have fallen in love...with coding. I want to learn as much as I can every day and continue
+					to grow my skill sets as a developer.
+				<br><br>
+				Before learning to code, I worked in retail management for several years and just kept thinking there has to be
+				something better out there for me. Something that challenges me---so I decided to make a change.
+				</p>
+				<p style="padding:50px 0px;"><a href="docs/Web Developer.pdf" class="button" target="_blank">Here's my resume!</a></p>
+				</div>
+			<br style="clear:left;"/>
+		</div>
+	</div>
+	<div id="dev">
+		<div class="container">
+			<div class="boxhead"><h1>DEVELOPMENT</h1></div>
+			<div class="content">
+				<p>
+					I have a certificate from Coder Camps Online. The focus of the course was Full MEAN Stack Web Development.
+					I do front-end development in HTML and CSS; I coded this website from scratch!
+				<br><br>
+				</p>
+			<!--<div class="subcontainer">
+					<div class = "subcontent"> some content</div>
+					<div class = "subcontent"> some content</div>
+					<div class = "subcontent"> some content</div>
+					<br>
+				</div>
+				-->
+				<p>
+				If you'd like to see more of my work or upcoming projects, you can check out my GitHub below.
+				</p>
+				<p style="padding:50px 0px;"><a href="https://github.com/jtbland" class="button button2" target="_blank">View my GitHub</a></p>
+
+			</div>
+			<br style="clear:left;"/>
+		</div>
+	</div>
+
+	<div id="hobbies">
+		<div class="container">
+			<div class="boxhead"><h1>HOBBIES</h1></div>
+			<div class="content">
+				<p>
+					I love playing poker. I also love wathching football,baseball and basketball, going for hikes, playing golf, playing video games, getting into politcal
+ 				 debates and most of all just relaxing at home watching Netflix with my wife and two children.
+				<br><br>
+				</p>
+				<br>
+					</a>
+				</div>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="contact">
+		<div class="container">
+			<div class="boxhead"><h1>CONTACT</h1></div>
+			<div class="content">
+					<p>
+	        Need me to build your website? Think I'd be a good applicant at your startup? Curious about what level trainer I am in PokemonGO?
+	        <br><br>
+					You can shoot me an email at: <br>
+					<a href="mailto:blandt.jeff@gmail.com" target="_blank">blandt.jeff@gmail.com</a>
+					<br><br>
+					<a href="https://www.linkedin.com/in/jeffblanddev/" target="_blank" style="padding-left:10px;"><i class="fa fa-linkedin-square" style="font-size:36px;"></i></a>
+					</p>
+			</div>
+		</div>
+	</div>
+	<div id="blueimp-gallery" class="blueimp-gallery">
+		<div class="slides"></div>
+		<h3 class="title"></h3>
+		<p class="description"></p>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+	</div>
+	<script src="js/blueimp-gallery.min.js"></script>
+	<script>
+		document.getElementById('links').onclick = function (event) {
+			event = event || window.event;
+			var target = event.target || event.srcElement,
+				link = target.src ? target.parentNode : target,
+				options = {index: link, event: event},
+				links = this.getElementsByTagName('a');
+			blueimp.Gallery(links, options);
+		};
+	</script>
+</body>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</html>
+
+<!--🎤 mic drop 🎤-->
