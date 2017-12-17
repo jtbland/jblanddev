@@ -171,8 +171,8 @@ li a {
   background-color: #0F0F0F;
 	color: #F3F3F3;
 }
-#media {
-	background-image: url("../img/media.jpg");
+#hobbies {
+	background-image: url("../img/hobbies2.jpg");
 	background-color:#3D3D3D;
 	color: white;
 }
@@ -192,7 +192,7 @@ li a {
 		min-height: 600px;
 	}
 	#media {
-		background-image: url("../img/media_mobile.jpg");
+		background-image: url("../img/hobbies1.jpeg");
 	}
 	#topbar {
 		min-height: 60px;
